@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.random {
+  position: relative;
+  width: 100px;
+  background-color: brown;
+}
+
+.centered {
+  height: 20%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+}
+
+
+.canvas-centered {
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  background-color: transparent;
+  width: 3em;
+  height: 3em;
+  border-radius: 100%;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  outline: none;
+}
+
+.instructions {
+  position: fixed;
+  top: 5%;
+  font-size: 1.25em;
+  color: white;
+  z-index: 999999;
+}
+
+.ar-static {
+  display: block;
+}
+.ar-animated {
+  display: none;
+}
+
+.confetti-canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  z-index: 1000;
+}
